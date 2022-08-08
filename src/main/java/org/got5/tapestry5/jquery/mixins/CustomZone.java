@@ -24,7 +24,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * @since 2.6.0
  * @see <a href="https://jqueryui.com/docs/effect/">jQuery Effect</a>
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class CustomZone {
 

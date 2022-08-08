@@ -29,7 +29,7 @@ import org.slf4j.Logger;
  * Component for displaying a code source
  *
  * @since 2.1.1
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = { "${jquery.assets.root}/vendor/components/showsource/codemirror.css" })
 public class ShowSource {

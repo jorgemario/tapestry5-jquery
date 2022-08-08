@@ -16,7 +16,7 @@ import org.apache.tapestry5.ioc.internal.util.InternalUtils;
 import org.apache.tapestry5.json.JSONArray;
 import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.PageRenderLinkSource;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.services.TranslatorSource;
 import org.got5.tapestry5.jquery.DataTableConstants;
 import org.got5.tapestry5.jquery.internal.DataTableModel;

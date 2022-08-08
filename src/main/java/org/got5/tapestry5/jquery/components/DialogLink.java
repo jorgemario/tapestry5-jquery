@@ -21,7 +21,7 @@ import org.got5.tapestry5.jquery.base.AbstractExtendableComponent;
  *	- DialogAjaxLink, clicking a DialogAjaxLink will open the associated Dialog and refresh the zone you've set inside the Dalog.
  *
  * @see <a href="http://jqueryui.com/dialog/">jQuery UI Official Documentation</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class DialogLink extends AbstractExtendableComponent

@@ -100,7 +100,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  *
  * @see Form
  * @see Select
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = "classpath:/META-INF/assets/core/Palette.css")
 public class Palette extends AbstractField

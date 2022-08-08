@@ -35,7 +35,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  *
  * @since 2.1.1
  * @see <a href="http://users.tpg.com.au/j_birch/plugins/superfish/">http://users.tpg.com.au/j_birch/plugins/superfish/</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class Superfish{

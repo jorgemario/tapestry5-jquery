@@ -18,7 +18,7 @@ import org.apache.tapestry5.services.compatibility.DeprecationWarning;
 /**
  * The JGrowl component has the same behavior as the Errors component. It will
  * use the jGrowl jQuery plugin
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = { "${jquery.assets.root}/vendor/components/jgrowl/jquery.jgrowl.css" })
 public class JGrowl extends BaseClientElement{

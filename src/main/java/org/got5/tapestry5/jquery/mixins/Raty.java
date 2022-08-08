@@ -47,7 +47,7 @@ import org.got5.tapestry5.jquery.utils.TagLocation;
  * 	 <li>t:ratyCancelOff="&lt;&lt;!&gt;&gt;" ==&gt; Replace &lt;&lt;!&gt;&gt; by the asset containing the image you want to be displayed for an inactive cancel icon.</li>
  * 	 <li>t:ratyLocation="&lt;&lt;!&gt;&gt;" ==&gt; Replace &lt;&lt;!&gt;&gt; by the string containing the literal ("before" or "after") expression for the relative location of the Raty mixin referring to the input.</li>
  * </ul>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @MixinAfter
 public class Raty {

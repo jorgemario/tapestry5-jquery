@@ -63,7 +63,7 @@ import java.util.List;
  *
  * @see <a href="http://jqueryui.com/autocomplete/">jQuery UI Official Documentation</a>
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(EventConstants.PROVIDE_COMPLETIONS)
 public class Autocomplete

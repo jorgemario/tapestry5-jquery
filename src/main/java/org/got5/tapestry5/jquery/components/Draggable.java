@@ -33,7 +33,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * The draggable component
  *
  * @see <a href="http://jqueryui.com/draggable/">jQuery UI Official Documentation</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Draggable extends AbstractExtendableComponent {
 

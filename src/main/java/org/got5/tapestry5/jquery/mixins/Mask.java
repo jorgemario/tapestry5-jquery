@@ -19,7 +19,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  * @since 2.1.1
  * @see	<a href="http://digitalbush.com/projects/masked-input-plugin/">http://digitalbush.com/projects/masked-input-plugin/</a>
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Mask {
 

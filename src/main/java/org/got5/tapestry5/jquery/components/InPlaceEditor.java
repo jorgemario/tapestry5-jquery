@@ -40,7 +40,7 @@ import java.util.List;
  * a "just in place" edit component that dont must emmbedded in a form.
  *
  * @version $Id: InPlaceEditor.java jquery version of chenillekit component from homburgs $
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(InPlaceEditor.SAVE_EVENT)
 @SupportsInformalParameters

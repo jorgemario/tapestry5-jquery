@@ -34,7 +34,7 @@ import org.got5.tapestry5.jquery.JQueryEventConstants;
  * If you want to start/stop refreshing the zone, you can trigger 
  * a stopRefreh/startRefresh events to the zone element.
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(JQueryEventConstants.REFRESH)
 public class ZoneRefresh

@@ -38,7 +38,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  *
  * @since 2.1.1
  * @see <a href="http://jqueryui.com/slider/">jQuery UI Official Documentation</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class RangeSlider  {

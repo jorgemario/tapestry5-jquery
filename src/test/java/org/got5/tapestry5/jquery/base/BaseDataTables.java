@@ -7,7 +7,7 @@ import org.apache.tapestry5.annotations.SessionState;
 import org.apache.tapestry5.beanmodel.BeanModel;
 import org.apache.tapestry5.grid.GridDataSource;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.services.BeanModelSource;
+import org.apache.tapestry5.beanmodel.services.BeanModelSource;
 import org.got5.tapestry5.jquery.data.Celebrity;
 import org.got5.tapestry5.jquery.data.CelebritySource;
 import org.got5.tapestry5.jquery.data.IDataSource;

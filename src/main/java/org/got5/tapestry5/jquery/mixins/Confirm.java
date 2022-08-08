@@ -16,7 +16,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
 /**
  * A mixin used to attach a JavaScript confirmation box to the onclick
  * event of any component that implements ClientElement.
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Confirm
 {

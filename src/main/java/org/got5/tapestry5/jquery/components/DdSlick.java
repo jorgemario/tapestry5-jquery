@@ -14,7 +14,7 @@ import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
 /**
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = "${jquery.assets.root}/vendor/components/ddslick/DdSlickComponent.css")
 @SupportsInformalParameters

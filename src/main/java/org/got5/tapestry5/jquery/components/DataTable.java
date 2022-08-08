@@ -49,7 +49,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  *        For more information about how to translate the DataTable plug-in,
  *        please visit the official documentation website
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(JQueryEventConstants.DATA)
 public class DataTable extends AbstractJQueryTable {

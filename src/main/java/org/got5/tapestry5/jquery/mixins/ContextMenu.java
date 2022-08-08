@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * Context Menu component.
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = "${jquery.assets.root}/vendor/mixins/contextmenu/jquery.contextMenu.css")
 public class ContextMenu {

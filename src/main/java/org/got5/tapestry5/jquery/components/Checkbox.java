@@ -11,7 +11,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  *
  * @since 2.1.1
  * @see <a href="http://access.aol.com/csun2011">http://access.aol.com/csun2011</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet = {"${jquery.assets.root}/vendor/components/checkbox/jquery.ui.checkbox.css"})
 public class Checkbox extends org.apache.tapestry5.corelib.components.Checkbox{

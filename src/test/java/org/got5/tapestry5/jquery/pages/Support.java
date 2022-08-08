@@ -4,7 +4,7 @@ import org.apache.tapestry5.ComponentResources;
 import org.apache.tapestry5.annotations.InjectComponent;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.http.services.Request;
 
 
 public class Support {

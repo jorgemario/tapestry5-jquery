@@ -22,7 +22,7 @@ import org.apache.tapestry5.corelib.components.Zone;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONArray;
 import org.apache.tapestry5.json.JSONObject;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.http.services.Request;
 
 
 public class ImageCropperPage{

@@ -18,7 +18,7 @@ import java.util.Map.Entry;
 /**
  * @since 2.6.0
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Bind {
 

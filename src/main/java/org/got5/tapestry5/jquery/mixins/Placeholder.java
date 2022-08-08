@@ -19,7 +19,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  * @since 2.6.1
  * @see <a href="https://github.com/mathiasbynens/jquery-placeholder">https://github.com/mathiasbynens/jquery-placeholder</a>
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @MixinAfter
 public class Placeholder {

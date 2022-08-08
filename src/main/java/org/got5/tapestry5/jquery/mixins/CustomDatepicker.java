@@ -27,7 +27,7 @@ import java.text.SimpleDateFormat;
  *      Documentation</a>
  *
  * @author Emmanuel DEMEY
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class CustomDatepicker {
 

@@ -41,7 +41,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * This component allows you create a jquery ui tab.
  *
  * @see <a href="http://jqueryui.com/tabs/">jQuery UI Official Documentation</a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class Tabs extends AbstractExtendableComponent

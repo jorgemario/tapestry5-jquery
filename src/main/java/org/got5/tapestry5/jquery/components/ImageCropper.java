@@ -28,7 +28,7 @@ import javax.inject.Inject;
 /**
 * @since 3.3.1
 * @see <a href="http://deepliquid.com/content/Jcrop.html">jCrop</a>
-* @tapestrydoc
+* /@tapestrydoc
 */
 @Import(
 	    stylesheet={"${jquery.assets.root}/vendor/components/jcrop/jquery.Jcrop.css"})

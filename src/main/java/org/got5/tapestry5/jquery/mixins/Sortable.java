@@ -19,7 +19,7 @@ import org.got5.tapestry5.jquery.JQueryEventConstants;
  * @see <a href="http://jqueryui.com/sortable/">jQuery UI Official Documentation</a>
  * @author Emmanuel DEMEY
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(JQueryEventConstants.SORTABLE)
 public class Sortable {

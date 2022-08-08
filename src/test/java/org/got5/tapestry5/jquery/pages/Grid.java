@@ -28,8 +28,8 @@ import org.apache.tapestry5.annotations.Retain;
 import org.apache.tapestry5.beanmodel.BeanModel;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONObject;
-import org.apache.tapestry5.services.BeanModelSource;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.beanmodel.services.BeanModelSource;
+import org.apache.tapestry5.http.services.Request;
 import org.got5.tapestry5.jquery.entities.User;
 
 

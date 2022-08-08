@@ -26,7 +26,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  *     <li>&lt;&lt;1&gt;&gt; : An array of JSON objects to configure the gmap3 according to the functionalities of the jQuery plugin "gmap3"</li>
  * </ul>
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Import(stylesheet="${jquery.assets.root}/vendor/components/gmap/gmap.css")
 public class GMap implements ClientElement {

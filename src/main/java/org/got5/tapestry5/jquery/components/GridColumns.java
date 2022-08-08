@@ -14,7 +14,7 @@ import org.apache.tapestry5.ioc.annotations.Inject;
 import java.util.List;
 
 /**
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class GridColumns {

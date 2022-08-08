@@ -21,7 +21,7 @@ import java.util.UUID;
 
 import org.apache.tapestry5.ValueEncoder;
 import org.apache.tapestry5.beaneditor.NonVisual;
-import org.apache.tapestry5.ioc.internal.util.CollectionFactory;
+import org.apache.tapestry5.commons.util.CollectionFactory;
 import org.apache.tapestry5.tree.DefaultTreeModel;
 import org.apache.tapestry5.tree.TreeModel;
 import org.apache.tapestry5.tree.TreeModelAdapter;

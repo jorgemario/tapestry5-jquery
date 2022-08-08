@@ -30,7 +30,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * 
  * @see <a href="http://jqueryui.com/button/">jQuery UI Official Documentation</a>
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Button
 {

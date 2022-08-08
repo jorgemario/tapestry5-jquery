@@ -34,7 +34,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
 /**
  * @since 2.1.1
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class CarouselItem implements ClientElement {

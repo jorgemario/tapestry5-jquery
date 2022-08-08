@@ -16,7 +16,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * And automatically, the widget javascript method will be called. 
  * @since 2.6.0
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class Widget {
 	

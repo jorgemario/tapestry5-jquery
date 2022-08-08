@@ -33,7 +33,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 /**
 * @since 2.1.1
 * @see <a href="http://sorgalla.com/jcarousel/">sorgalla.com</a>
-* @tapestrydoc
+* /@tapestrydoc
 */
 @Import(stylesheet={"${jquery.assets.root}/vendor/components/carousel/tango/skin.css"})
 @SupportsInformalParameters

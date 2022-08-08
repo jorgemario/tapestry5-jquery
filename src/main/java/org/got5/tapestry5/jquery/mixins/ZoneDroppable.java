@@ -37,7 +37,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * 
  * @see <a href="http://docs.jquery.com/UI/Draggable">http://docs.jquery.com/UI/Draggable</a>
  * 
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @SupportsInformalParameters
 public class ZoneDroppable {

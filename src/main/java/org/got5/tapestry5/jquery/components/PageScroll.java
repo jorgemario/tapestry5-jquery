@@ -34,7 +34,7 @@ import org.got5.tapestry5.jquery.JQueryEventConstants;
  * <a href='http://contextllc.com/tools/jQuery-infinite-scroll-live-scroll'>
  * jQuery onScrollBeyond()
  * </a>
- * @tapestrydoc
+ * /@tapestrydoc
  */
 @Events(JQueryEventConstants.NEXT_PAGE)
 @Import(stylesheet = "${jquery.assets.root}/vendor/components/pagescroll/PageScroll.css")

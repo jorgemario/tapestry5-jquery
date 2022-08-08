@@ -2,9 +2,9 @@ package org.got5.tapestry5.jquery.pages;
 
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.beanmodel.BeanModel;
-import org.apache.tapestry5.ioc.Messages;
+import org.apache.tapestry5.commons.Messages;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.services.BeanModelSource;
+import org.apache.tapestry5.beanmodel.services.BeanModelSource;
 import org.got5.tapestry5.jquery.data.Celebrity;
 
 public class Index {

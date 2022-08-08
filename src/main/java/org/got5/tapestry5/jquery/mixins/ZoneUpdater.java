@@ -15,7 +15,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
  * A simple mixin for attaching javascript that updates a zone on any client-side event.
  * Based on http://tinybits.blogspot.com/2010/03/new-and-better-zoneupdater.html
  *
- * @tapestrydoc
+ * /@tapestrydoc
  */
 public class ZoneUpdater {
 
