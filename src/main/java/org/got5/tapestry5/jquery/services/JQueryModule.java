@@ -23,13 +23,7 @@ import org.apache.tapestry5.commons.MappedConfiguration;
 import org.apache.tapestry5.commons.OrderedConfiguration;
 import org.apache.tapestry5.commons.Resource;
 import org.apache.tapestry5.ioc.ServiceBinder;
-import org.apache.tapestry5.ioc.annotations.Contribute;
-import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.ioc.annotations.InjectService;
-import org.apache.tapestry5.ioc.annotations.Primary;
-import org.apache.tapestry5.ioc.annotations.SubModule;
-import org.apache.tapestry5.ioc.annotations.Symbol;
-import org.apache.tapestry5.ioc.annotations.Value;
+import org.apache.tapestry5.ioc.annotations.*;
 import org.apache.tapestry5.ioc.services.FactoryDefaults;
 import org.apache.tapestry5.ioc.services.SymbolProvider;
 import org.apache.tapestry5.services.BindingFactory;
@@ -41,15 +35,10 @@ import org.apache.tapestry5.services.javascript.JavaScriptModuleConfiguration;
 import org.apache.tapestry5.services.javascript.JavaScriptStack;
 import org.apache.tapestry5.services.javascript.ModuleManager;
 import org.apache.tapestry5.services.javascript.StackExtension;
-import org.apache.tapestry5.services.javascript.StackExtensionType;
 import org.apache.tapestry5.services.transform.ComponentClassTransformWorker2;
 import org.got5.tapestry5.jquery.EffectsConstants;
 import org.got5.tapestry5.jquery.JQuerySymbolConstants;
-import org.got5.tapestry5.jquery.services.impl.EffectsParamImpl;
-import org.got5.tapestry5.jquery.services.impl.JGrowlManagerImpl;
-import org.got5.tapestry5.jquery.services.impl.JavaScriptFilesConfigurationImpl;
-import org.got5.tapestry5.jquery.services.impl.RenderTrackerImpl;
-import org.got5.tapestry5.jquery.services.impl.WidgetParamsImpl;
+import org.got5.tapestry5.jquery.services.impl.*;
 import org.got5.tapestry5.jquery.services.js.JSModule;
 import org.got5.tapestry5.jquery.services.messages.MessageProvider;
 import org.got5.tapestry5.jquery.services.messages.MessageProviderImpl;
@@ -68,8 +57,8 @@ public class JQueryModule {
 	public static void contributeFactoryDefaults(
 			MappedConfiguration<String, Object> configuration) {
 
-		configuration.add(JQuerySymbolConstants.JQUERY_VERSION, "1.12.2");
-		configuration.add(JQuerySymbolConstants.JQUERY_UI_VERSION, "1.12.1");
+		configuration.add(JQuerySymbolConstants.JQUERY_VERSION, "3.6.2");
+		configuration.add(JQuerySymbolConstants.JQUERY_UI_VERSION, "1.13.2");
 		configuration.add(JQuerySymbolConstants.JQUERY_JSON_VERSION, "2.4");
 
 		configuration.add(JQuerySymbolConstants.ASSETS_ROOT,
@@ -87,7 +76,7 @@ public class JQueryModule {
 		configuration.add(JQuerySymbolConstants.SUPPRESS_PROTOTYPE, true);
 
 		configuration.add(JQuerySymbolConstants.JQUERY_CORE_PATH,
-				"${jquery.assets.root}/vendor/jquery.js");
+				"${jquery.assets.root}/vendor/jquery-3.6.2.js");
 
 		// MIGRATION TO 5.4
 		configuration.add(JQuerySymbolConstants.TAPESTRY_JQUERY_PATH,
@@ -220,5 +209,7 @@ public class JQueryModule {
 	            configuration.add(name, StackExtension.module(full));
 	        }
 
+			// override jquery-library
+			configuration.override("jquery-library", StackExtension.library("classpath:/META-INF/modules/tjq/vendor/jquery-3.6.2.js"));
 	    }
 }

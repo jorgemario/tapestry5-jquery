@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.got5</groupId>
 	<artifactId>tapestry5-jquery</artifactId>
-	<version>4.1.2-SPECIAL</version>
+	<version>4.2.0.IMS-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Tapestry 5 JQuery Library</name>
 	<description>Tapestry Components Library</description>
@@ -382,15 +382,17 @@
         <url>http://maven.springframework.org/release</url>
     </pluginRepository>
     </pluginRepositories>
-    <distributionManagement>
-	  <snapshotRepository>
-	    <id>ossrh</id>
-	    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-	  </snapshotRepository>
-	  <repository>
-    	<id>ossrh</id>
-   	 	<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-  	  </repository>
+	<distributionManagement>
+		<repository>
+			<id>io.cloudrepo.maven.releases</id>
+			<name>CloudRepo Release Repositories</name>
+			<url>https://kanelabs.mycloudrepo.io/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>io.cloudrepo.maven.snapshots</id>
+			<name>CloudRepo Snapshots Repositories-</name>
+			<url>https://kanelabs.mycloudrepo.io/repositories/snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 	<profiles>
         <profile>
